@@ -1,0 +1,14 @@
+.container {
+    margin: 0 auto;
+  }
+  
+  .list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }

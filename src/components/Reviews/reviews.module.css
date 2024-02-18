@@ -1,0 +1,16 @@
+.list {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .title {
+    color: rgb(88, 96, 110);
+  }
+  
+  .info {
+    color: rgb(88, 96, 110);
+    font-size: 18px;
+  }
