@@ -1,28 +1,9 @@
-.list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    padding-left: 0px;
-  }
-  
-  .item {
-    width: 300px;
-  }
-  
-  .title {
-    color: rgb(88, 96, 110);
-    font-size: 18px;
-    margin-bottom: 2px;
-    margin-top: 5px;
-  }
-  
-  .text {
-    margin-top: 5px;
-    margin-bottom: 2px;
-  }
-  
-  .info {
-    color: rgb(88, 96, 110);
-    font-size: 18px;
-  }
+.castList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.castItem {
+  margin-bottom: 25px;
+}
